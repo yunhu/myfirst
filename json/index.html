@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" style="overflow-y: scroll;">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="JSON,JSON在线,json解析, json在线解析,json教程,json数组,JSON 校验,格式化JSON,xml转json 工具,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化, json在线,json 在线验证,json 在线校验,免费代理ip,在线代理服务器,免费在线代理服务器">
+    <meta name="description" content="json解析,json在线解析,json教程,json数组,JSON在线,JSON在线校验工具,JSON,JSON 校验,格式化,xml转json 工具,json视图,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证">
+    <meta name="author" content="">
+
+    <title>JSON在线工具 - 在线JSON校验格式化工具(K JSON) - json在线解析|json|在线校验|代理服务器|代理ip</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/v2.0/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="static/v2.0/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <!-- <link href="static/v2.0/dist/css/timeline.css" rel="stylesheet"> -->
+
+    <!-- Custom CSS -->
+    <link href="static/v2.0/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <!-- <link href="static/v2.0/bower_components/morrisjs/morris.css" rel="stylesheet"> -->
+
+    <!-- Custom Fonts -->
+    <link href="static/v2.0/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <link href="static/js/lib/jquery-linedtextarea.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="com-top" style="height: 20px; width: 100%; background-color: #3D4147; padding: 0 10px 0 10px;">
+    <p style="color: #999999;">Hello world，今天是09月04日(星期日)。<span class="toplogin" style="float: right;">...</span></p>
+</div>
+
+<div class="navbar-header">
+    <a class="navbar-brand" href="">kjson</a>
+</div>
+<!-- /.navbar-header -->
+
+<ul class="nav navbar-top-links navbar-left">
+<li class='dropdown'><a href='jsonformat/' target='_self' class='dropdown-toggle' data-toggle='dropdown'>JSON <i class='fa fa-caret-down'></i></a><ul class='dropdown-menu' role='menu'><li><a href='jsonparser/' target='_self'>JSON在线视图</a></li><li><a href='jsoneditor/' target='_self'>JSON在线编辑</a></li><li><a href='jsonformat/' target='_self'>JSON格式化高亮</a></li></ul></li><li class=''><a href='xml' target='_self'>XML</a></li><li class='dropdown'><a href='javascript:;' target='_self' class='dropdown-toggle' data-toggle='dropdown'>HTML/CSS <i class='fa fa-caret-down'></i></a><ul class='dropdown-menu' role='menu'><li><a href='jsformat/' target='_self'>HTML/JS格式化</a></li><li><a href='css/' target='_self'>CSS压缩/格式化</a></li></ul></li><li class='dropdown'><a href='javascript:;' target='_self' class='dropdown-toggle' data-toggle='dropdown'>转换工具 <i class='fa fa-caret-down'></i></a><ul class='dropdown-menu' role='menu'><li><a href='time/' target='_self'>Unix时间戳</a></li><li><a href='url/' target='_self'>URL编码/解码</a></li><li><a href='qr/' target='_self'>二维码生成</a></li><li><a href='markdown/' target='_self'>Markdown编辑器</a></li><li><a href='n2a/' target='_self'>Native/Asscii编码互转</a></li><li><a href='hexconvert/' target='_self'>任意进制转换</a></li><li><a href='hexrgb/' target='_self'>色值转换工具</a></li></ul></li><li class='dropdown'><a href='#' target='_self' class='dropdown-toggle' data-toggle='dropdown'>加密/解密 <i class='fa fa-caret-down'></i></a><ul class='dropdown-menu' role='menu'><li><a href='encrypt/md5tool/' target='_self'>MD5加密</a></li><li><a href='encrypt/base64/' target='_self'>Base64</a></li><li><a href='encrypt/enc/' target='_self'>Mcrypt加密工具</a></li><li><a href='encrypt/des/' target='_self'>Mcrypt解密工具</a></li><li><a href='encrypt/hash/' target='_self'>在线Hash计算工具</a></li></ul></li><li class=''><a href='fm/' target='_blank'>FM</a></li><li class=''><a href='feedback/' target='_blank'>留言</a></li></ul>        </nav>
+
+
+
+
+        <div id="page-wrapper">
+           <div style="height: 10px;"></div>
+           <div></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <span>json格式化校验工具</span>
+                            <!-- <span style="float:right; width:320px;overflow:hidden;line-height:20px; height:20px;" class="joke">累了？开怀笑一笑吧! <a href="http://zhannei.baidu.com/cse/search?q=%E7%88%86%E7%AC%91&click=1&entry=1&s=8924679419652100939&nsid=" target="_blank">戳我</a></span> -->
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body" style="position: relative;">
+
+                            -
+                            <div style="position: absolute; left:450px; bottom:3px; z-index:10;">
+                                <span>微信关注，你懂的。</span><br/>
+                                <img style="width:100px; height:100px;" src="h/statics/images/qrcode_for_gh_2466413fd0ae_258.jpg">
+                            </div>
+                        
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <textarea style="width: 100%; outline:none;" rows="20" id="json_input" spellcheck="false" placeholder='请输入需要校验的json字符串'></textarea>
+                                </div>
+                            </div>
+
+                            <div style="height: 10px;"></div>
+                            
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="button" class="btn btn-outline btn-primary variable">校验</button>
+                                    <button type="reset" class="btn btn-outline btn-danger clear">清空</button>
+                                    <span style="padding-left:20px;">
+<!-- <a href="vps/?in-btn" style="color: #FF0000;" target="_blank">超值VPS服务器租用,仅￥30/月</a>&nbsp;&nbsp; -->
+<!-- <a href="http://6du.in/121C0u" target="_blank"><img src="static/images/dxjk.jpg"></a> -->
+                                        &nbsp;&nbsp;试试:&nbsp;&nbsp;
+<a href='jsonparser/?f=1' target='_blank'>JSON在线视图</a>&nbsp;&nbsp;
+<a href='jsoneditor/?f=1' target='_blank'>JSON在线编辑</a>&nbsp;&nbsp;
+<a href='jsonformat/?f=1' target='_blank'>JSON格式化高亮</a>
+
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div style="height: 10px;"></div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <pre class="v-result alert" style="display:none;"></pre>
+                                </div>
+                            </div>
+
+
+                            <div style="height: 20px;"></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>本站交流QQ群：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=47046d3cd3712c159e96e05e870654d68f833e5a9218597ed5728ec4ece58259"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png"></a></p>
+                                </div>
+                            </div>
+
+                            
+                            <div class="row">
+                                <div class="col-lg-12">
+            
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs">
+                                                                                <li class="active"><a href="#news" data-toggle="tab">互联网</a></li>
+                                        
+                                                                                <li><a href="#lieqi" data-toggle="tab">猎奇</a></li>
+                                                                                
+                                                                                <li><a href="#fuli" data-toggle="tab">福利区</a></li>
+                                        
+                                                                                <li><a href="#lizhi" data-toggle="tab">励志人生</a></li>
+                                        
+                                        
+                                    </ul>
+                                    
+                                    <div class="tab-content">
+                                                                                <div class="tab-pane fade in active" id="news">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/365848.html?pos=kindex" target="_blank">太突然！iPad Air 3曝光：要来了</a></li>
+                                                                                            <li><a href="h/c/news/365849.html?pos=kindex" target="_blank">别以为在苹果公司上班就好,你会染上三个坏习惯</a></li>
+                                                                                            <li><a href="h/c/news/365847.html?pos=kindex" target="_blank">最舒服系统：全新Flyme曝光，伴随真旗舰</a></li>
+                                                                                            <li><a href="h/c/news/365846.html?pos=kindex" target="_blank">提醒：部分十一假期火车票明天可购买，9月10日大规模调图</a></li>
+                                                                                            <li><a href="h/c/news/365845.html?pos=kindex" target="_blank">马云回答G20峰会选址杭州：44年前杭州就很有名</a></li>
+                                                                                            <li><a href="h/c/news/365844.html?pos=kindex" target="_blank">电信诈骗频发，专家：九成虚拟运营商可能倒闭</a></li>
+                                                                                            <li><a href="h/c/news/365843.html?pos=kindex" target="_blank">超前3GPP，爱立信全球首发5G基站</a></li>
+                                                                                            <li><a href="h/c/news/365842.html?pos=kindex" target="_blank">官方批准：初音未来2016中国演唱会12月在京上演</a></li>
+                                                                                            <li><a href="h/c/news/365795.html?pos=kindex" target="_blank">清华教授电信诈骗案反思：1760万元换来的深重悲哀</a></li>
+                                                                                            <li><a href="h/c/news/365794.html?pos=kindex" target="_blank">他是美国常春藤最年轻大学生：理科满分，6岁碾压微积分</a></li>
+                                                                                        </ul>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade" id="fuli">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/365629.html?pos=kindex" target="_blank">美好生活 小清新水果图片</a></li>
+                                                                                            <li><a href="h/c/news/365593.html?pos=kindex" target="_blank">静坐红尘 唯美大红灯笼高高挂</a></li>
+                                                                                            <li><a href="h/c/news/365592.html?pos=kindex" target="_blank">在一纸薄缘里，续约一份深情 小清新图片</a></li>
+                                                                                            <li><a href="h/c/news/365589.html?pos=kindex" target="_blank">瓶中花 花中情 清新唯美花朵图片</a></li>
+                                                                                            <li><a href="h/c/news/365588.html?pos=kindex" target="_blank">清风下的徐思</a></li>
+                                                                                            <li><a href="h/c/news/365586.html?pos=kindex" target="_blank">人生，因缘而聚;因情而暖</a></li>
+                                                                                            <li><a href="h/c/news/365582.html?pos=kindex" target="_blank">有的时候我们需要的是静下来</a></li>
+                                                                                            <li><a href="h/c/news/365583.html?pos=kindex" target="_blank">有些人是拿一辈子来怀念的</a></li>
+                                                                                            <li><a href="h/c/news/365584.html?pos=kindex" target="_blank">午后的阳光 唯美家居阳台花园</a></li>
+                                                                                            <li><a href="h/c/news/365581.html?pos=kindex" target="_blank">人要拿得起，也要放得下。</a></li>
+                                                                                        
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="lizhi">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/365841.html?pos=kindex" target="_blank">关于成长励志格言警句40句</a></li>
+                                                                                            <li><a href="h/c/news/365839.html?pos=kindex" target="_blank">早安心语 人就一生 只此一生</a></li>
+                                                                                            <li><a href="h/c/news/365840.html?pos=kindex" target="_blank">励志作文400字精选</a></li>
+                                                                                            <li><a href="h/c/news/365838.html?pos=kindex" target="_blank">改变人生的十句话，摆脱迷茫的十条定律</a></li>
+                                                                                            <li><a href="h/c/news/365834.html?pos=kindex" target="_blank">高考励志文章集锦</a></li>
+                                                                                            <li><a href="h/c/news/365835.html?pos=kindex" target="_blank">2016高考励志文章大全</a></li>
+                                                                                            <li><a href="h/c/news/365836.html?pos=kindex" target="_blank">今天看到很霸气的一段话</a></li>
+                                                                                            <li><a href="h/c/news/365837.html?pos=kindex" target="_blank">周末早安心语 背上行囊就是过客</a></li>
+                                                                                            <li><a href="h/c/news/365833.html?pos=kindex" target="_blank">坚持的励志故事：登顶只需一步</a></li>
+                                                                                            <li><a href="h/c/news/365831.html?pos=kindex" target="_blank">你可以嘲笑我，但请别嘲笑我喜欢的东西！</a></li>
+                                                                                        
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="yule">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/365322.html?pos=kindex" target="_blank">网曝王蓉砸伤主持人 揭秘王蓉精神病发疯真相内幕</a></li>
+                                                                                            <li><a href="h/c/news/365323.html?pos=kindex" target="_blank">汤唯产女 扒扒女明星怀孕谁的颜值高</a></li>
+                                                                                            <li><a href="h/c/news/365281.html?pos=kindex" target="_blank">如今周星驰54岁一直没有结婚 不曾想到是因为她</a></li>
+                                                                                            <li><a href="h/c/news/365162.html?pos=kindex" target="_blank">曝鹿晗出演《择天记》一亿片酬 网友大呼“天价”</a></li>
+                                                                                            <li><a href="h/c/news/365161.html?pos=kindex" target="_blank">Angelababy片酬高过赵薇 揭秘明星“天价”片酬哪家强</a></li>
+                                                                                            <li><a href="h/c/news/365159.html?pos=kindex" target="_blank">林志玲回应陈冠希 耿直称自己委屈 陈冠希的脾气不好</a></li>
+                                                                                            <li><a href="h/c/news/365158.html?pos=kindex" target="_blank">汤唯产女正式升级为人母 汤唯女儿照片叫什么名字</a></li>
+                                                                                            <li><a href="h/c/news/365160.html?pos=kindex" target="_blank">《八月未央》剧组疑打学生 演员Rain躺枪被网友炮轰</a></li>
+                                                                                            <li><a href="h/c/news/364900.html?pos=kindex" target="_blank">周海媚结束12年恋情 盘点长得美情场屡屡失意的老牌女星</a></li>
+                                                                                            <li><a href="h/c/news/364901.html?pos=kindex" target="_blank">伊能静因伤口感染与医生再次开撕 揭秘事件的整个过程</a></li>
+                                                                                        
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="fashion">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/358898.html?pos=kindex" target="_blank">连衣裙和牛仔裤！日本街拍之古着聚集地</a></li>
+                                                                                            <li><a href="h/c/news/360519.html?pos=kindex" target="_blank">高跟鞋挑选有道，走路不累需get！</a></li>
+                                                                                            <li><a href="h/c/news/365263.html?pos=kindex" target="_blank">穿什么小白鞋？现在流行小黑鞋</a></li>
+                                                                                            <li><a href="h/c/news/359842.html?pos=kindex" target="_blank">你的早秋搭配，是不是少了款斜跨包？</a></li>
+                                                                                            <li><a href="h/c/news/365260.html?pos=kindex" target="_blank">初秋要你好看 亮色高跟鞋最出彩</a></li>
+                                                                                            <li><a href="h/c/news/362867.html?pos=kindex" target="_blank">有一种随性帅气，叫衬衫外套～</a></li>
+                                                                                            <li><a href="h/c/news/365170.html?pos=kindex" target="_blank">卫衣配裙子有范儿 9月混搭才够味</a></li>
+                                                                                            <li><a href="h/c/news/359850.html?pos=kindex" target="_blank">入秋学韩妞穿卫衣，照样美翻天！</a></li>
+                                                                                            <li><a href="h/c/news/358952.html?pos=kindex" target="_blank">荷兰天使超模罗梅性感大片曝光 妩媚女人味十足</a></li>
+                                                                                            <li><a href="h/c/news/358516.html?pos=kindex" target="_blank">郭碧婷街头写真 气质优雅尽显夏日清凉</a></li>
+                                                                                        
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="lieqi">
+                                            <ul>
+                                                                                            <li><a href="h/c/news/365046.html?pos=kindex" target="_blank">科学家称宇宙第一批恒星诞生的时间或更晚</a></li>
+                                                                                            <li><a href="h/c/news/365045.html?pos=kindex" target="_blank">扎克伯格：SpaceX火箭爆炸令人失望</a></li>
+                                                                                            <li><a href="h/c/news/365044.html?pos=kindex" target="_blank">地球边缘发现神秘太空生物:形似人类胎儿</a></li>
+                                                                                            <li><a href="h/c/news/365043.html?pos=kindex" target="_blank">最新发现神秘双星系统中存在三颗巨行星</a></li>
+                                                                                            <li><a href="h/c/news/364590.html?pos=kindex" target="_blank">美国宇航局称地球正以千年来从未有过的速度变暖</a></li>
+                                                                                            <li><a href="h/c/news/364587.html?pos=kindex" target="_blank">最新研究揭晓火卫一神秘陨坑凹槽形成之谜</a></li>
+                                                                                            <li><a href="h/c/news/364588.html?pos=kindex" target="_blank">地球邻近星系存在被灰尘遮蔽的“恒星温床”</a></li>
+                                                                                            <li><a href="h/c/news/364589.html?pos=kindex" target="_blank">银河系神永远不老的恒星</a></li>
+                                                                                            <li><a href="h/c/news/364257.html?pos=kindex" target="_blank">贪心是致命毒药：蟒蛇吞食羚羊反被羊角刺穿</a></li>
+                                                                                            <li><a href="h/c/news/364253.html?pos=kindex" target="_blank">科学家搜寻第九行星时意外发现外海王星天体</a></li>
+                                                                                        
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                            
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+
+                <!-- /.col-lg-12 -->
+            </div>
+
+
+            
+            <div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                &nbsp;工具导航地图
+            </div>
+            <div class="panel-body">
+                <p>JSON相关: 
+                    <a href="">JSON格式化校验</a>&nbsp;&nbsp;
+                    <a href="jsonparser/?fm=map">JSON在线视图</a>&nbsp;&nbsp;
+                    <a href="jsoneditor/?fm=map">JSON在线编辑</a>&nbsp;&nbsp;
+                    <a href="jsonformat/?fm=map">JSON格式化高亮</a>
+                </p>
+
+                <p>HTML相关: 
+                    <a href="xml/?fm=map">XML格式化工具</a>&nbsp;&nbsp;
+                    <a href="jsformat/?fm=map">HTML/JS格式化</a>&nbsp;&nbsp;
+                    <a href="css/?fm=map">CSS压缩/格式化</a>
+                </p>
+
+                <p>转换工具: 
+                    <a href="time/?fm=map">Unix时间戳</a>&nbsp;&nbsp;
+                    <a href="url/?fm=map">URL编码/解码</a>&nbsp;&nbsp;
+                    <a href="markdown/?fm=map">Markdown编辑器</a>&nbsp;&nbsp;
+                    <a href="n2a/?fm=map">Native/Asscii编码互转</a>&nbsp;&nbsp;
+                    <a href="qr/?fm=map">二维码生成</a>&nbsp;&nbsp;
+                    <a href="hexconvert/?fm=map">任意进制转换</a>&nbsp;&nbsp;
+                    <a href="hexrgb/?fm=map">色值转换工具</a>
+                </p>
+
+                <p>加密/解密: 
+                    <a href="encrypt/md5tool/?fm=map">MD5加密</a>&nbsp;&nbsp;
+                    <a href="encrypt/base64/?fm=map">Base64</a>&nbsp;&nbsp;
+                    <a href="encrypt/enc/?fm=map">Mcrypt加密工具</a>&nbsp;&nbsp;
+                    <a href="encrypt/des/?fm=map">Mcrypt解密工具</a>&nbsp;&nbsp;
+                    <a href="encrypt/hash/?fm=map">在线Hash计算工具</a>
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+</div>            <div class="row" style="display:block;">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <!-- <div class="panel-heading">
+                            友情链接
+                        </div> -->
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div style="font-size: 12px;">
+                                <p>友链交换：kjson_com#126.com (要求权重相当)</p>
+                                <p style="word-wrap: break-word;">
+                                                                        <a href="h/" target="_blank">kjson</a> |
+                                                                        <a href="http://www.bobmao.com/" target="_blank">山猫电影</a> |
+                                                                        <a href="http://www.letao-cn.com/" target="_blank">雅虎拍卖</a> |
+                                                                        <a href="http://www.huok.net/" target="_blank">火酷文章网</a> |
+                                                                        <a href="http://www.meiju98.com/" target="_blank">美剧98</a> |
+                                                                        <a href="http://www.xin3721.com/" target="_blank">C#教程</a> |
+                                                                        <a href="http://v.828g.com/" target="_blank">828g电影</a> |
+                                                                        <a href="http://www.wangluoguoji.com/" target="_blank">网络电话</a> |
+                                                                        <a href="http://www.bigaijiaju.com" target="_blank">上海办公家具</a> |
+                                                                        <a href="http://www.haiqisoft.com/" target="_blank">会员管理系统</a> |
+                                                                        <a href="http://www.rovinj.cn/" target="_blank">rfid供应链</a> |
+                                                                        <a href="http://www.huoyuan1688.com/" target="_blank">微商货源</a> |
+                                                                        <a href="http://www.8258.com/" target="_blank">p2p互联网金融平台</a> |
+                                                                        <a href="http://qp.ii.cc/" target="_blank">棋牌游戏</a> |
+                                                                        <a href="http://www.sanqiqi.com/" target="_blank">三七七娱乐网</a> |
+                                                                        <a href="http://www.molingk.com" target="_blank">wifi广告路由器</a> |
+                                                                        <a href="http://www.bhwifi.com" target="_blank">广告路由器</a> |
+                                                                        <a href="http://www.huanyuliulanqi.cn" target="_blank">寰宇浏览器</a> |
+                                                                        <a href="http://www.hj8828.biz" target="_blank">皇家国际</a> |
+                                                                        <a href="http://www.5adn.com" target="_blank">5A电脑</a> |
+                                                                        <a href="http://sat.zhan.com/" target="_blank">SAT官网</a> |
+                                                                        <a href="http://www.todaysuccess.cn" target="_blank">宣传片制作</a> |
+                                                                        <a href="http://www.transportjp.com/" target="_blank">日本转运</a> |
+                                                                        <a href="http://jb.999ask.com/" target="_blank">疾病百科</a> |
+                                                                        <a href="http://www.jxf.cc" target="_blank">吉祥坊</a> |
+                                                                        <a href="http://www.tcsports.com.cn" target="_blank">皇冠体育</a> |
+                                                                        <a href="http://888508.shop.ename.com" target="_blank">域名购买</a> |
+                                                                        <a href="http://www.qiangju.com" target="_blank">域名抢注</a> |
+                                                                        <a href="http://www.dll-download-system.com/" target="_blank">dll files</a> |
+                                                                        <a href="http://980.so" target="_blank">短网址</a> |
+                                                                        <a href="http://www.256app.com/" target="_blank">广州APP制作</a> |
+                                                                        
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20px;"></div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="text-center">
+            <a href="vps/?fm=footer">VPS服务器</a> |
+            <a href="time/">Unix时间戳</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="text-center">
+            &copy;2013-2016            <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14072846号</a>
+        </div>
+    </div>
+</div>        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="static/v2.0/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/v2.0/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/js/lib/jquery-linedtextarea.js"></script>
+    <script src='static/js/lib/jsl.format.js' type="text/javascript"></script>
+    <script src='static/js/lib/jsl.parser.js' type="text/javascript"></script>
+    <script src='static/js/jsoninit.js' type="text/javascript"></script>
+
+    <script type="text/javascript">
+(function(){
+    $(document).ready(function(){
+        var k = "k"; k +="j"; k+="s"; k+="o"; k+="n";
+        var host = 'www.'+k+'.com';
+        if (window.location.host != host){
+          window.location.href="http://" + host + window.location.pathname + window.location.search;
+        }
+
+        
+        // $.getJSON('h/index.php?callback=?', {'m': 'script', 'c': 'login', 'a': 'ajax_login'}, function(d){
+        //     var html = '';
+        //     if(d.islogin){
+        //         html = '<a href="h/index.php?m=member&c=index">'+d.info.username+'</a>';
+        //         html += '&nbsp;&nbsp;[<a href="h/index.php?m=member&c=index&a=logout&forward='+ encodeURIComponent(window.location.href) +'">退出</a>]';
+        //     }else{
+        //         html = '<a target="_blank" href="h/index.php?m=member&amp;c=index&amp;a=public_qq_loginnew"><img style="width:13px; height:13px;" src="http://s.kjson.com/h/statics/images/member/logo/qq_16_16.png">登录</a>';
+        //     }
+        //     $(".toplogin").html(html);
+        //     $(".toplogin a").css({'color': '#999999'});
+        // });
+    });
+})()
+</script>
+
+
+
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_30081996'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30081996' type='text/javascript'%3E%3C/script%3E"));</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "/hm.baidu.com/hm.js?b41a45cb6a6d5ade3218bbe18664a643";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=0&amp;pos=right&amp;uid=637701" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":289};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->    
+</body>
+
+</html>
+
