@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Unix时间戳转换, 时间戳转换工具">
+    <meta name="description" content="Unix时间戳转换可以把Unix时间转成北京时间, 北京时间转Unix时间戳">
+    <meta name="author" content="">
+
+    <title>Unix时间戳转换工具 - 在线JSON校验格式化工具(R JSON)</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/v2.0/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="static/v2.0/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <!-- <link href="static/v2.0/dist/css/timeline.css" rel="stylesheet"> -->
+
+    <!-- Custom CSS -->
+    <link href="static/v2.0/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <!-- <link href="static/v2.0/bower_components/morrisjs/morris.css" rel="stylesheet"> -->
+
+    <!-- Custom Fonts -->
+    <link href="static/v2.0/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?17ff5558ea2f0d27b89cab3adde6c353";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+<nav class="navbar navbar-default navbar-static-top" role="navigation"
+			style="margin-bottom: 0">
+			<div> 
+				
+			</div>
+
+
+
+
+		<ul class="nav navbar-top-links navbar-left">
+			<li class=''><a href='./json.html' target='_self'>JSON解析</a></li>
+				<li class=''><a href='./time.html' target='_self'>时间戳</a></li>
+				<li class=''><a href='./qr.html' target='_self'>二维码</a></li>
+				<li class=''><a href='./md5.html' target='_self'>MD5</a></li>
+				<li class=''><a href='./base64.html' target='_self'>BASE64</a></li>
+				<li class=''><a href='./url.html' target='_self'>URLENCODE</a></li>
+			</ul>	
+		</nav>
+
+<!-- /.navbar-header -->
+
+<ul class="nav navbar-top-links navbar-left">
+
+        <div id="page-wrapper">
+            <div style="height: 10px;"></div>
+            <div></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Unix时间戳, Unix时间戳转换工具
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">当前时间戳</span>
+                                        <input type="text" class="form-control now-time" value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p>Unix时间戳(Unix timestamp) → 北京时间</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">Unix时间戳</span>
+                                        <input type="text" class="form-control time1" value="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <button type="button" class="btn btn-outline btn-primary time2date">转换 → 日期</button>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">北京时间</span>
+                                        <input type="text" class="form-control time1-bj" value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p>北京时间 → Unix时间戳(Unix timestamp)</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">北京时间</span>
+                                        <input type="text" class="form-control time2-bj" value="">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <button type="button" class="btn btn-outline btn-primary date2time">转换 → 时间戳</button>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">Unix时间戳</span>
+                                        <input type="text" class="form-control time2" value="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div style="height: 20px;"></div>
+
+
+<div class="row">
+    <div class="col-lg-12">
+         <div class="text-center">
+            &copy;2013-2016            <a href="http://www.miitbeian.gov.cn/" target="_blank">津ICP备16006477号-1</a>
+        </div>
+    </div>
+</div>        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="static/v2.0/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/v2.0/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+</script>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+
+<!-- Baidu Button BEGIN -->
+
+<!-- Baidu Button END -->    <script type="text/javascript">
+    (function(){
+
+        var now_time = $(".now-time"),
+            time1 = $(".time1"),
+            time2date = $(".time2date"),
+            time1_bj = $(".time1-bj"),
+            time2 = $(".time2"),
+            date2time = $(".date2time"),
+            time2_bj = $(".time2-bj");
+
+        var timestamptostr = function(timestamp) {
+             d = new Date(timestamp * 1000);
+             var _d = (d.getFullYear())+"-"+(d.getMonth()+1)+"-"+(d.getDate())+" "+(d.getHours())+":"+(d.getMinutes())+":"+(d.getSeconds());
+             return _d;
+        };
+
+        setInterval(function(){
+            now_time.val(Math.round(new Date().getTime()/1000));
+        },1000);
+        time1.val(Math.round(new Date().getTime()/1000));
+        time2_bj.val(timestamptostr(Math.round(new Date().getTime()/1000)));
+
+        time2date.on("click", function(){
+            time1_bj.val(timestamptostr(time1.val()));
+        });
+        date2time.on("click", function(){
+            var t = time2_bj.val();
+            //t = t.replace(/-/g, "");
+            var d = new Date(t);
+            time2.val(d.getTime()/1000);
+        });
+
+    })();
+    </script>
+</body>
+</html>
+
